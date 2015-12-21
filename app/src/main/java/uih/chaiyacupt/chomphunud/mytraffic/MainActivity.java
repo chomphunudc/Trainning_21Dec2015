@@ -3,12 +3,15 @@ package uih.chaiyacupt.chomphunud.mytraffic;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.widget.Button;
+import android.widget.ListView;
+
+import java.util.LinkedList;
 
 public class MainActivity extends AppCompatActivity {
 
     //Explicit ประกาศตัวแปร
-    Private ListView TrafficListView;
-    Private Button aboutmeButton;
+    private ListView TrafficListView;
+    private Button aboutMebutton;
 
 
     @Override
